@@ -10,4 +10,6 @@ SignalR has different features to allow you to create a connection between clien
 In this project, we have used several technologies and libraries and each one is responsible for a component. To authenticate all users, we have used asp.net Identity and to create a chat connection between two users who are following together, we have used the SignalR library. In addition, we have used the Entity framework core to implement the communication with the SQL server.
 
 # Libtraries and Packages : 
-<code>Install-Package Microsoft.EntityFrameworkCore -Version 7.0.0-preview.2.22153.1</code>
+- Entityframework Core InMemory : <code>Install-Package Microsoft.EntityFrameworkCore.InMemory -Version 5.0.1</code>
+- SignalR : <code>Install-Package Microsoft.AspNetCore.SignalR.Core -Version 1.1.0</code>
+- Asp.net core Identity : <code>Install-Package Microsoft.AspNetCore.Identity -Version 2.2.0</code>
